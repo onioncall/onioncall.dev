@@ -49,10 +49,11 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">Tidal TUI</h5>
-          <p class="card-text">A terminal user interface for interacting with tidal using written in go</p>
+          <h5 class="card-title">Tuidal</h5>
+          <p class="card-text">A terminal user interface for interacting with tidal, using the bubbletea library written in go</p>
           <div class="d-flex gap-2 mt-auto">
-            <p><i>Coming Soon</i></p>
+            <a href="/projects/detail" class="btn btn-outline-warning btn-sm disabled" >View Project</a>
+            <a href="https://github.com/onioncall/tuidal" class="btn btn-outline-warning btn-sm">GitHub</a>
           </div>
         </div>
       </div>
