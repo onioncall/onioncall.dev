@@ -1,0 +1,9 @@
+services:
+
+  client:
+    build: ./
+    ports:
+      - "3277:3277"  # Map host port 8080 to container port 3000
+    environment:
+      - NODE_ENV=production
+      - PORT=3277
