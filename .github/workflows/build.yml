@@ -1,0 +1,20 @@
+name: Gated Build
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Build Docker Compose
+      run: docker compose build
+      
+    - name: Verify services start
+      run: |
+        docker compose up -d
+        docker compose down
