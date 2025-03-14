@@ -18,3 +18,4 @@ jobs:
       run: |
         docker compose -f /client/compose.yml up -d
         docker compose -f /client/compose.yml down
+
