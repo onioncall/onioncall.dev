@@ -1,4 +1,4 @@
-name: Build and Test Docker Image
+name: Gated Build
 
 on:
   pull_request:
@@ -9,25 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-    
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
-    
-    - name: Build Docker image
-      uses: docker/build-push-action@v4
-      with:
-        context: .
-        file: ./client/Dockerfile
-        push: false
-        tags: onioncall-dev:test
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
-    
-    # Optional: Run tests inside the container
-    - name: Test Docker image
+    - uses: actions/checkout@v3
+      
+    - name: Build Docker Compose
+      run: docker compose build
+      
+    - name: Verify services start
       run: |
-        docker run --rm onioncall-dev:test [test-command]
-        # Example: docker run --rm myapp:test go test ./...
-        # Or: docker run --rm myapp:test dotnet test
+        docker compose up -d
+        docker compose down
