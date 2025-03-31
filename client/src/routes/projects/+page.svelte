@@ -49,6 +49,19 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
+          <h5 class="card-title">slugly</h5>
+          <p class="card-text">Printing Text, Fast and Slow with Golang</p>
+          <div class="d-flex gap-2 mt-auto">
+            <a href="/projects/detail" class="btn btn-outline-warning btn-sm disabled" >View Project</a>
+            <a href="https://github.com/onioncall/slugly" class="btn btn-outline-warning btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
           <h5 class="card-title">Tuidal</h5>
           <p class="card-text">A terminal user interface for interacting with tidal, using the bubbletea library written in go</p>
           <div class="d-flex gap-2 mt-auto">
