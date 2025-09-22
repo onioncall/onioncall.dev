@@ -23,7 +23,7 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">Docker Compose Example</h5>
+          <h5 class="card-title">Docker Compose Demo</h5>
           <p class="card-text">A docker compose project made for a work demonstration of microservices, using dotnet and sveltekit</p>
           <div class="d-flex gap-2 mt-auto">
             <a href="projects/detail" class="btn btn-outline-warning btn-sm disabled">View Project</a>
@@ -62,11 +62,11 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">Tuidal</h5>
-          <p class="card-text">A terminal user interface for interacting with tidal, using the bubbletea library written in go</p>
+          <h5 class="card-title">gonav</h5>
+          <p class="card-text">A terminal user interface for navigating directories in the terminal. Written in go, using bubbletea</p>
           <div class="d-flex gap-2 mt-auto">
             <a href="/projects/detail" class="btn btn-outline-warning btn-sm disabled" >View Project</a>
-            <a href="https://github.com/onioncall/tuidal" class="btn btn-outline-warning btn-sm">GitHub</a>
+            <a href="https://github.com/onioncall/gonav" class="btn btn-outline-warning btn-sm">GitHub</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,12 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">Project TBD</h5>
+          <h5 class="card-title">dndgo</h5>
+          <p class="card-text">A dnd application written in go to search for dnd info using the 5e api, and manager character stats, health, and inventory</p>
+          <div class="d-flex gap-2 mt-auto">
+            <a href="/projects/detail" class="btn btn-outline-warning btn-sm disabled" >View Project</a>
+            <a href="https://github.com/onioncall/dndgo" class="btn btn-outline-warning btn-sm">GitHub</a>
+          </div>
         </div>
       </div>
     </div>
