@@ -23,11 +23,11 @@
     <div class="col">
       <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">Docker Compose Demo</h5>
-          <p class="card-text">A docker compose project made for a work demonstration of microservices, using dotnet and sveltekit</p>
+          <h5 class="card-title">wrapt</h5>
+          <p class="card-text">a library for wrapping text nicely in the console, written in go</p>
           <div class="d-flex gap-2 mt-auto">
             <a href="projects/detail" class="btn btn-outline-warning btn-sm disabled">View Project</a>
-            <a href="https://github.com/onioncall/docker-compose-example" class="btn btn-outline-warning btn-sm">GitHub</a>
+            <a href="https://github.com/onioncall/wrapt" class="btn btn-outline-warning btn-sm">GitHub</a>
           </div>
         </div>
       </div>
